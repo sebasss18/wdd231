@@ -99,7 +99,17 @@ function displayCourses(courseList) {
             <h3>${course.subject} ${course.number}</h3>
         `;
         container.appendChild(card);
+        calculateCredits(courseList);
     });
+}
+
+function calculateCredits(courseList) {
+    const total = courseList.reduce((sum, course) => {
+        return sum + course.credits;
+    }, 0);
+
+    document.getElementById('totalCredits').textContent =
+        `Total Credits Listed Above: ${total}`
 }
 
 const option = document.querySelectorAll('.options button');
@@ -108,7 +118,7 @@ option.forEach(button => {
     button.addEventListener('click', () => {
         const selected = button.textContent;
         let filteredCourses;
-        
+
         if (selected === 'All') {
             filteredCourses = courses;
         }
@@ -118,3 +128,5 @@ option.forEach(button => {
         displayCourses(filteredCourses);
     });
 });
+
+displayCourses(courses);
