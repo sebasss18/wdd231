@@ -32,34 +32,35 @@ header span {
     display: block;
 }
 
+/** NAVIGATION CORREGIDO **/
 nav {
     background-color: #ddd;
     margin: 0 auto;
     max-width: 900px;
+}
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
-    a {
-        display: block;
-        color: #3D405B;
-        text-align: center;
-        padding: 1rem;
-        text-decoration: none;
-        transition: color 0.3s ease, background-color 0.3s ease;
-    }
+nav a {
+    display: block;
+    color: #3D405B;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
 
-    & a:hover {
-        color: #ffffff;
-        background-color: #3D405B;
-    }
+nav a:hover {
+    color: #ffffff;
+    background-color: #3D405B;
+}
 
-    .active {
-        color: #fff200;
-    }
+nav .active {
+    color: #fff200;
 }
 
 .navigation li.current {
