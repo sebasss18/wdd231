@@ -16,11 +16,14 @@
         display: block;
     }
 
-    .navigation ul li {
+    .navigation ul {
         display: flex;
-        flex: 1 1 100%
-    }
 
+    }
+    li {
+        flex: 1 1 100%;
+    }
+    
     .sections-grid {
         display: grid;
         grid-template-columns: 1fr 0.5fr;
