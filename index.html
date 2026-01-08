@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course-list-array.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--This is a CDN css option, It can minimize the page and its for optimization-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">-->
+</head>
+
+<body>
+    <header>
+        <img src="images/home.svg" alt="site logo" width="512" height="512">
+        <span>Sebastian Bernal S.</span>
+        <button id="ham-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Assignment</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="sections-grid">
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    My name is Saul Sebastian Bernal Sotelo, I love music and programming, one of my favorites hobbies is playing instruments and play videogames, I also love movies.
+                    I'm really excited to learn more about web dev, and everything about software development, I've been fascinated with all the things i'm learning, and I hope to learn more and more things every day.
+                </p>
+            </section>
+            <section>
+                <h2>Student Photo</h2>
+                <img src="images/my-photo.webp" alt="myphoto">
+            </section>
+        </div>
+        <section class="certificates">
+            <h2>Web Certificate Courses</h2>
+            <div class="options">
+                <button>All</button>
+                <button>WDD</button>
+                <button>CSE</button>
+            </div>
+            <div id="coursesContainer"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="" target="_blank"><img src="images/facebook-svgrepo-com.svg" alt="Facebook" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/instagram-svgrepo-com.svg" alt="Instagram" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/github-142-svgrepo-com.svg" alt="Github" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/linkedin-round-svgrepo-com.svg" alt="Linkedin" width="16" height="16"></a>
+        </div>
+        <p>Copyright &copy; | <span id="currentYear"></span> | Sebastian Bernal | Mexico Sonora</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

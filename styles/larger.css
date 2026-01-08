@@ -1,0 +1,54 @@
+@media only screen and (min-width: 38rem) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+
+        li {
+            flex: 1 1 100%;
+        }
+    }
+
+    .sections-grid {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+    }
+    section {
+        text-align: center;
+        background-color: #ddd;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+    section img {
+        transition: transform 0.5s, border-radius 0.5s;
+    }
+    section img:hover {
+        transform: scale(1.04);
+        border-radius: 10px;
+    }
+
+    .options button:hover {
+        transform: scale(1.05);
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+}
