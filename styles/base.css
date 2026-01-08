@@ -177,7 +177,6 @@ section img {
 }
 
 button {
-    transition: background-color 0.5s;
     all: unset;
     cursor: pointer;
     background-color: #3D405B;
