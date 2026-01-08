@@ -6,7 +6,7 @@
 /** HEADER **/
 header {
     display: grid;
-    grid-template-columns: 24px auto 44px;
+    grid-template-columns: 24px auto 60px;
     padding: 5px 0 5px 10px;
     align-items: end;
     column-gap: 8px;
@@ -78,6 +78,9 @@ h1 {
     color: #3D405B;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-self: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .hamburger::before {
