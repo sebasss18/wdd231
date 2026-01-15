@@ -1,0 +1,65 @@
+[
+  {
+    "companyName": "Pepsi Hermosillo",
+    "address": "Blvd. Solidaridad 855, Proyecto Rio Sonora Hermosillo XXI, 83288 Hermosillo, Son., Mexico",
+    "phone": "+52 662 254 0105",
+    "websiteURL": "https://www.pepsico.com.mx/",
+    "imageFile": "pepsi-hermosillo.png",
+    "membershipLevel": 3,
+    "otherInfo": "Planta embotelladora de Pepsi en Hermosillo"
+  },
+  {
+    "companyName": "Grupo ABSA",
+    "address": "Blvr. P.º Río Sonora Nte. Sur #151, Proyecto Rio Sonora Hermosillo XXI, 83270 Hermosillo, Son., Mexico",
+    "phone": "+52 662 109 0170",
+    "websiteURL": "https://www.grupoabsa.com/",
+    "imageFile": "grupo-absa.png",
+    "membershipLevel": 2,
+    "otherInfo": "Proveedor de soluciones de automatización y control industrial"
+  },
+  {
+    "companyName": "Ford Hermosillo",
+    "address": "KM 4.5, Carr. a la Colorada, Parque Industrial, 83299 Hermosillo, Son., Mexico",
+    "phone": "+52 662 259 8800",
+    "websiteURL": "https://corporate.ford.com/company/plant-detail-pages/hermosillo-stamping-and-assembly-plant.html",
+    "imageFile": "ford-assembly-hermosillo.png",
+    "membershipLevel": 3,
+    "otherInfo": "Planta de ensamblaje automotriz Ford en Hermosillo"
+  },
+  {
+    "companyName": "Encora Hermosillo",
+    "address": "Blvd. Antonio Quiroga 21, Col, El Llano, Quinta Emilia, 83210 Hermosillo, Son., Mexico",
+    "phone": "+52 662 340 7280",
+    "websiteURL": "https://www.encora.com/",
+    "imageFile": "encora-hermosillo.png",
+    "membershipLevel": 1,
+    "otherInfo": "Empresa de software y desarrollo tecnológico"
+  },
+  {
+    "companyName": "Bimbo Hermosillo",
+    "address": "A Sahuaripa SN, Parque Industrial, 83299 Hermosillo, Son., Mexico",
+    "phone": "+52 662 251 9900",
+    "websiteURL": "https://www.bimbo.com.mx/",
+    "imageFile": "bimbo-hermosillo.png",
+    "membershipLevel": 2,
+    "otherInfo": "Planta de producción de Grupo Bimbo en Hermosillo"
+  },
+  {
+    "companyName": "Latécoère México",
+    "address": "Pierre Georges Lateceore 1, La Manga, 83320 Hermosillo, Son., Mexico",
+    "phone": "+52 662 289 4450",
+    "websiteURL": "https://www.latecoere.aero/",
+    "imageFile": "latecoere-hermosillo.png",
+    "membershipLevel": 3,
+    "otherInfo": "Fabricante de componentes aeronáuticos"
+  },
+  {
+    "companyName": "TE Connectivity",
+    "address": "Blvd. Parque Industrial Hermosillo Nte. 23, 83118 Hermosillo, Son., Mexico",
+    "phone": "+52 662 310 6620",
+    "websiteURL": "https://www.te.com/",
+    "imageFile": "te-connectivity-hermosillo.png",
+    "membershipLevel": 1,
+    "otherInfo": "Proveedor global de conectividad y sensores"
+  }
+]

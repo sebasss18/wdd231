@@ -1,0 +1,81 @@
+@media only screen and (min-width: 38rem) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    header {
+        border-radius: 15px;
+        margin: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 25px auto;
+        gap: 15px;
+        font-weight: bold;
+    }
+
+    header span {
+        font-size: 2rem;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+    
+    /*Social Media Links*/
+    .social a:hover {
+        background-color: #ddd;
+        transform: scale(1.2);
+    }
+
+    li {
+        flex: 1 1 100%;
+    }
+    
+    .sections-grid {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+    }
+    section {
+        text-align: center;
+        background-color: #ddd;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    section img {
+        transition: transform 0.5s, border-radius 0.5s;
+    }
+    section img:hover {
+        transform: scale(1.04);
+        border-radius: 10px;
+    }
+
+    .options button:hover {
+        transform: scale(1.05);
+    }
+
+
+}
