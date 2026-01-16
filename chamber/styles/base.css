@@ -175,6 +175,10 @@ section {
     border-radius: 15px;
 }
 
+section img {
+    max-width: 100%;
+    border-radius: 15px;
+}
 
 article.cards .image-container {
     width: 100%;
@@ -202,6 +206,8 @@ article.grid {
 article.list {
     display: flex;
     flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 article.cards a{

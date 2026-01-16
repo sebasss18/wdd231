@@ -66,6 +66,8 @@
     }
 
     section img {
+        max-width: 100%;
+        border-radius: 15px;
         transition: transform 0.5s, border-radius 0.5s;
     }
     section img:hover {
