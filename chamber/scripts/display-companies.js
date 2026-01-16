@@ -21,7 +21,7 @@ async function displayCompanies() {
         section.innerHTML = `
         <h3>${company.companyName}</h3>
 
-        <img src="images/${company.imageFile}" alt="${company.companyName}">
+        <img src="images/${company.imageFile}" alt="${company.companyName} width="200" height="200">
         <p>Phone: ${company.phone}</p>
         <a href="${company.websiteURL}" target="_blank">Visit Website</a>
         `;
