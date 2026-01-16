@@ -203,16 +203,43 @@ article.grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
-article.list {
-    display: flex;
-    flex-direction: column;
-    max-width: 350px;
-    margin: 0 auto;
-}
-
 article.cards a{
     text-decoration: none;
     color: var(--color-contrast);
     font-weight: bolder;
     cursor: pointer;
+    transition: all 0.3s;
+}
+
+article.cards a:hover {
+    color: var(--color-secondary);
+}
+
+article.cards.list {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: var(--color-background);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+article.cards.list section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    background-color: #f2f2f2;
+}
+
+article.cards.list section img {
+    display: none;
+}
+
+article.cards.list section h3,
+article.cards.list section p,
+article.cards.list section a {
+    margin: 0 10px;
 }
