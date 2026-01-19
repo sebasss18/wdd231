@@ -81,8 +81,8 @@ nav .active {
     color: #d7fcff;
 }
 
-.navigation li.current {
-    background-color: #eee;
+.navigation li.current a {
+    background-color: var(--color-primary);
 }
 
 .hamburger {
