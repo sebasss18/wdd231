@@ -376,3 +376,11 @@ article.cards.list section a {
     transform: scale(1.05);
     background-color: var(--color-contrast);
 }
+
+#events-section h2 {
+    text-align: center;
+}
+
+#spotlights h2 {
+    text-align: center;
+}
