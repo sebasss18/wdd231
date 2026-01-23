@@ -127,4 +127,17 @@
         gap: 35px;
     }
 
+    #events-section {
+        max-width: 800px;
+    }
+
+    #events-section .event {
+        max-width: 800px;
+    }
+    .columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }

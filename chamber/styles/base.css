@@ -384,3 +384,24 @@ article.cards.list section a {
 #spotlights h2 {
     text-align: center;
 }
+
+/* EVENTS SECTION */
+
+#events-section {
+    background-color: var(--color-primary);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+#events-section h2 {
+    color: var(--color-text);
+}
+
+#events-section .event {
+    background-color: #0D1B2A;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+}
