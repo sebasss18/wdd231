@@ -379,6 +379,7 @@ article.cards.list section a {
 
 #events-section h2 {
     text-align: center;
+    color: var(--color-text);
 }
 
 #spotlights h2 {
@@ -393,10 +394,6 @@ article.cards.list section a {
     padding: 10px;
     border-radius: 15px;
     color: #ffffff;
-}
-
-#events-section h2 {
-    color: var(--color-text);
 }
 
 #events-section .event {
