@@ -393,10 +393,10 @@ article.cards.list section a {
     margin: 15px;
     padding: 10px;
     border-radius: 15px;
-    color: #ffffff;
 }
 
 #events-section .event {
+    color: #ffffff;
     background-color: #0D1B2A;
     padding: 10px;
     margin: 5px;
