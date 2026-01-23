@@ -5,8 +5,8 @@
     "phone": "+52 662 254 0105",
     "websiteURL": "https://www.pepsico.com.mx/",
     "imageFile": "pepsi-hermosillo.webp",
-    "membershipLevel": 3,
-    "otherInfo": "Planta embotelladora de Pepsi en Hermosillo"
+    "membershipLevel": "Gold",
+    "otherInfo": "Pepsi bottling plant in Hermosillo"
   },
   {
     "companyName": "Grupo ABSA",
@@ -14,8 +14,8 @@
     "phone": "+52 662 109 0170",
     "websiteURL": "https://www.grupoabsa.com/",
     "imageFile": "grupo-ABSA.webp",
-    "membershipLevel": 2,
-    "otherInfo": "Proveedor de soluciones de automatización y control industrial"
+    "membershipLevel": "Silver",
+    "otherInfo": "Industrial automation and control solutions provider"
   },
   {
     "companyName": "Ford Hermosillo",
@@ -23,8 +23,8 @@
     "phone": "+52 662 259 8800",
     "websiteURL": "https://corporate.ford.com/company/plant-detail-pages/hermosillo-stamping-and-assembly-plant.html",
     "imageFile": "ford-hermosillo.webp",
-    "membershipLevel": 3,
-    "otherInfo": "Planta de ensamblaje automotriz Ford en Hermosillo"
+    "membershipLevel": "Gold",
+    "otherInfo": "Ford automotive assembly plant in Hermosillo"
   },
   {
     "companyName": "Encora Hermosillo",
@@ -32,8 +32,8 @@
     "phone": "+52 662 340 7280",
     "websiteURL": "https://www.encora.com/",
     "imageFile": "encora-hermosillo.webp",
-    "membershipLevel": 1,
-    "otherInfo": "Empresa de software y desarrollo tecnológico"
+    "membershipLevel": "Bronze",
+    "otherInfo": "Software and technology development company"
   },
   {
     "companyName": "Bimbo Hermosillo",
@@ -41,8 +41,8 @@
     "phone": "+52 662 251 9900",
     "websiteURL": "https://www.bimbo.com.mx/",
     "imageFile": "bimbo-hermosillo.webp",
-    "membershipLevel": 2,
-    "otherInfo": "Planta de producción de Grupo Bimbo en Hermosillo"
+    "membershipLevel": "Silver",
+    "otherInfo": "Grupo Bimbo production plant in Hermosillo"
   },
   {
     "companyName": "Latécoère México",
@@ -50,8 +50,8 @@
     "phone": "+52 662 289 4450",
     "websiteURL": "https://www.latecoere.aero/",
     "imageFile": "latecoere-hermosillo.webp",
-    "membershipLevel": 3,
-    "otherInfo": "Fabricante de componentes aeronáuticos"
+    "membershipLevel": "Gold",
+    "otherInfo": "Aeronautical components manufacturer"
   },
   {
     "companyName": "TE Connectivity",
@@ -59,7 +59,7 @@
     "phone": "+52 662 310 6620",
     "websiteURL": "https://www.te.com/",
     "imageFile": "TE-connectivity-hermosillo.webp",
-    "membershipLevel": 1,
-    "otherInfo": "Proveedor global de conectividad y sensores"
+    "membershipLevel": "Bronze",
+    "otherInfo": "Global connectivity and sensor solutions provider"
   }
 ]

@@ -42,7 +42,7 @@
         padding: 0;
         font-weight: bold;
     }
-    
+
     /*Social Media Links*/
     .social a:hover {
         background-color: #ddd;
@@ -57,19 +57,13 @@
         display: grid;
         grid-template-columns: 1fr 0.5fr;
     }
-    section {
-        text-align: center;
-        background-color: #ddd;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 15px;
-    }
 
     section img {
         max-width: 100%;
         border-radius: 15px;
         transition: transform 0.5s, border-radius 0.5s;
     }
+
     section img:hover {
         transform: scale(1.04);
         border-radius: 10px;
@@ -83,5 +77,54 @@
         transform: scale(1.1);
     }
 
+    /* HOME PAGE */
+    .cta-button:hover {
+        border-radius: 32px;
+    }
+
+    .weather {
+        width: 300px;
+    }
+
+    .forecast {
+        width: 300px;
+    }
+
+    .forecast {
+        transition: 0.3s;
+    }
+
+    .forecast:hover {
+        transform: scale(1.02);
+        cursor: default;
+    }
+
+    .weather {
+        transition: 0.3s;
+    }
+
+    .weather:hover {
+        transform: scale(1.02);
+        cursor: default;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translate(-50%);
+        margin: 0;
+        color: #ffffff;
+        background-color: var(--color-secondary);
+        padding: 0.5rem 2rem;
+        border-radius: 32px;
+        z-index: 2;
+    }
+
+    #spotlight-cards {
+        max-width: 850px;
+        gap: 35px;
+    }
 
 }

@@ -17,7 +17,8 @@ async function displayCompanies() {
     const companies = await response.json();
     companies.forEach(company => {
         const section = document.createElement('section');
-    
+        section.classList.add('member-card');
+
         section.innerHTML = `
         <h3>${company.companyName}</h3>
 

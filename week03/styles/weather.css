@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    border: 5px solid lightblue;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card h2 {
+    color: rgb(42, 45, 57);
+    margin: .3rem 0;
+}
+
+.card #description {
+    text-transform: capitalize;
+    color: rgb(42, 45, 57);
+    margin: .3rem 0;
+}
+
+.card #current-temp {
+    font-size: 1.5rem;
+    color: rgb(42, 45, 57);
+    margin: .3rem 0;
+}
+
+.card #weather-icon {
+    width: 80px;
+}
