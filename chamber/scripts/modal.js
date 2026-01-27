@@ -41,4 +41,4 @@ document.querySelectorAll('.membership-cards button').forEach(button => {
 });
 
 const timestampField = document.querySelector('#timestamp');
-timestampField.textContent = new Date().toISOString();
+timestampField.value = new Date().toISOString();

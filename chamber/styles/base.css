@@ -333,6 +333,7 @@ article.cards.list section a {
 }
 
 .hero h1 {
+    box-shadow: 0 0 10px rgba(56, 56, 56, 0.5);
     font-size: 1rem;
     margin: 0;
     color: #ffffff;
@@ -347,6 +348,7 @@ article.cards.list section a {
 }
 
 #spotlight-cards {
+    box-shadow: 0 0 10px rgba(56, 56, 56, 0.5);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -376,18 +378,20 @@ article.cards.list section a {
     background-color: var(--color-contrast);
 }
 
-#events-section h2 {
-    text-align: center;
-    color: var(--color-text);
-}
-
 #spotlights h2 {
     text-align: center;
 }
 
 /* EVENTS SECTION */
 
+#events-section h2 {
+    text-align: center;
+    color: var(--color-text);
+}
+
+
 #events-section {
+    box-shadow: 0 0 10px rgba(56, 56, 56, 0.5);
     background-color: var(--color-primary);
     margin: 15px;
     padding: 10px;
@@ -414,6 +418,7 @@ form {
     padding: 30px;
     max-width: 600px;
     border: 5px solid var(--color-primary);
+    box-shadow: 0 0 10px rgba(56, 56, 56, 0.5);
     border-radius: 24px;
     margin: 10px;
 }
