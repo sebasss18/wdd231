@@ -515,10 +515,6 @@ form input[type=submit]:active {
     animation: fadeUp 0.6s ease-out forwards;
 }
 
-.membership-cards article h3 {
-    font-size: 1.5rem;
-}
-
 .membership-cards article button {
     background-color: #0D1B2A;
     color: #ffffff;
