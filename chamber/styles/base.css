@@ -18,7 +18,6 @@ header {
     grid-template-columns: 35px auto 60px;
     gap: 15px;
     font-weight: bold;
-    column-gap: 15px;
 }
 
 header img {
@@ -521,7 +520,6 @@ form input[type=submit]:active {
     padding: .8rem 1.5rem;
     border-radius: 32px;
     cursor: pointer;
-    appearance: none;
     border: none;
     margin: 5px;
     transition: all 0.3s;
