@@ -160,6 +160,12 @@ section img {
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.course-card:hover {
+    transform: scale(1.08);
 }
 
 .course-card.completed {
@@ -199,3 +205,35 @@ button {
 #totalCredits {
     font-weight: bold;
 }
+
+#courseDetails {
+    max-width: 500px;
+    background-color: white;
+    border: 5px solid #3D405B;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(56, 56, 56, 0.5);
+    padding: 20px;
+
+}
+::backdrop {
+  background: rgb(0 0 0 / 50%);
+}
+
+dialog button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: .7rem 0.6rem;
+    border-radius: 32px;
+    font-size: 1rem;
+}
+
+dialog button:hover {
+    transform: scale(1.08);
+}
+
+dialog button:active {
+    transform: scale(0.9);
+    transition: none;
+}
+

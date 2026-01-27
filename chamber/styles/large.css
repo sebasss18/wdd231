@@ -140,4 +140,22 @@
         align-items: center;
     }
 
+    form label textarea {
+        display: flex;
+    }
+
+    form input[type=submit]:hover {
+    transform: scale(1.05);
+    background-color: var(--color-secondary);
+    }
+
+    form input[type=submit]:active {
+        transform: scale(1);
+        background-color: #0D1B2A;
+        transition: none;
+    }
+
+    #membershipModal {
+    max-width: 450px;
+}
 }

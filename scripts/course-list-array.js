@@ -80,6 +80,7 @@ const courses = [
 
 const container = document.getElementById('coursesContainer');
 container.classList.add('courses-grid');
+const courseDetails = document.querySelector('#courseDetails');
 
 function displayCourses(courseList) {
     container.innerHTML = '';
@@ -100,6 +101,9 @@ function displayCourses(courseList) {
         `;
         container.appendChild(card);
         calculateCredits(courseList);
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
     });
 }
 
@@ -130,3 +134,19 @@ option.forEach(button => {
 });
 
 displayCourses(courses);
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+    <button id='closeModal'>❌</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3><strong>Certificate</strong>: ${course.certificate}</h3>
+        <p>${course.description}</p>
+        <p><strong>Technologies</strong>: ${course.technology}</p>
+    `;
+    courseDetails.showModal();
+
+    closeModal.addEventListener('click', () => {
+        courseDetails.close();
+    });
+}
