@@ -44,17 +44,18 @@
         <main id="join-page">
             <h1>Join Page</h1>
             <div class="grid-display">
-                <section class="join">
+                <div class="join">
                     <form class="join-form" method="get" action="thankyou.html">
                     <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
                         <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
-                        <label>Organizational Title <input type="text" name="organization-title" title="Applicant's organizational title" autocomplete="organizational-title" pattern="[a-zA-Z\- ]{7,}"></label>
-                        <label>Cell Phone <input type="telephone" name="phone"  required autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" ></label>
+                        <label>Organizational Title <input type="text" name="organization-title" title="Applicant's organizational title" autocomplete="job-title" pattern="[a-zA-Z\- ]{7,}"></label>
+                        <label>Cell Phone <input type="tel" name="phone"  required autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" ></label>
                         <label>Email <input type="email" name="email" required placeholder="name@example.com"  title="Your Email" autocomplete="email"></label>
                         <label>Business <input type="text" required autocomplete="organization" name="organization" title="Business or organization name" ></label>
 
                         <label>Membership Level
                         <select name="membership" required>
+                            <option value="">Select a membership level</option>
                             <option value="np-membership">Non Profit Organizations</option>
                             <option value="bronze-membership">Bronze Membership</option>
                             <option value="silver-membership">Silver Membership</option>
@@ -65,8 +66,8 @@
                         <input type="hidden" name="timestamp" id="timestamp">
                         <input type="submit" value="submit">
                     </form>
-                </section>
-                <section class="membership-cards">
+                </div>
+                <div class="membership-cards">
                     <article class="card-np">
                         <h3>NP Membership</h3>
                         <button data-level="NP">Learn More</button>
@@ -86,7 +87,7 @@
                         <h3>Gold Membership</h3>
                         <button data-level="Gold">Learn More</button>
                     </article>
-                </section>
+                </div>
             </div>
         </main>
         <footer>

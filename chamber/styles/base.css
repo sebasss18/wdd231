@@ -442,7 +442,7 @@ form h3 {
 }
 
 form input[type=text],
-form input[type=telephone],
+form input[type=tel],
 form input[type=date],
 form input[type=email],
 form select {
@@ -588,3 +588,18 @@ form input[type=submit]:active {
     }
 }
 
+/* RESULTS PAGE */
+
+#results {
+    background-color: var(--color-primary);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 32px;
+    border: 3px solid var(--color-secondary);
+    box-shadow: 0 0 10px rgba(56, 56, 56, 0.5);
+}
+
+.thankyou-page h2{
+    text-align: center;
+
+}
