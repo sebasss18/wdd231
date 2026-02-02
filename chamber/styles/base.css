@@ -39,11 +39,43 @@ h1 {
 }
 
 .navigation {
-    display: none;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .navigation.show {
-    display: block;
+    animation-name: slideDown;
+}
+
+.navigation.hide {
+    animation-name: slideUp;
+}
+
+@keyframes slideDown {
+    from {
+        max-height: 0;
+        opacity: 0;
+        transform: translatey(-10px);
+    }
+    to {
+        max-height: 500px;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        max-height: 500px;
+        opacity: 1;
+    }
+    to {
+        max-height: 0;
+        opacity: 0;
+    }
 }
 
 nav ul {
