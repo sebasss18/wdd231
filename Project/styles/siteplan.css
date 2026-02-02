@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #7F5539;
+  --color-secondary: #A68A64;
+  --color-contrast: #656D4A;
+  --color-background: #FAF8F4;
+  --color-text: #414833;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-weight: bolder;
+  margin: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  color: var(--color-text);
+}
+
+img {
+    border-radius: 23px;
+}
