@@ -31,6 +31,10 @@ h2, h3, h4, h5, h6 {
 }
 
 img {
+    display: flex;
+    flex-direction: column;
     border-radius: 23px;
     border: solid 5px var(--color-secondary);
+    margin: 15px;
+    padding: 7px;
 }
