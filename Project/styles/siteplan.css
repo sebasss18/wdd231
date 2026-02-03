@@ -18,7 +18,7 @@ h1 {
     font-family: 'Merriweather', serif;
     text-align: center;
     font-size: 3rem;
-    background-color: #A68A64;
+    background-color: var(--color-primary);
     color: #ffffff;
     border-radius: 33px;
     padding: .2rem;
