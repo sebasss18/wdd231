@@ -26,5 +26,4 @@ function displayPlaces() {
 const container = document.querySelector('.place-cards');
 container.innerHTML = '';
 
-
 displayPlaces();
