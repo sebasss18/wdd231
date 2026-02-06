@@ -7,7 +7,7 @@ export const placesOfInterest = [
     url: "https://www.google.com/search?q=Cerro+de+la+Campana+Hermosillo+Sonora"
   },
   {
-    name: "Museo Regional de Sonora (Museo de la Cárcel)",
+    name: "Museo de la Cárcel",
     image: "../images/museo_de_la_carcel.webp",
     address: "Dr. Hoeffer 22, Centro, Hermosillo, Sonora",
     description: "Historic museum in the old penitentiary showing regional history and culture.",
@@ -35,7 +35,7 @@ export const placesOfInterest = [
     url: "https://www.google.com/search?q=La+Sauceda+Hermosillo+Sonora"
   },
   {
-    name: "Catedral Metropolitana de Hermosillo",
+    name: "Catedral Metropolitana",
     image: "../images/catedral_metropolitana.webp",
     address: "Av. Obregón y Calle Serdán, Centro, Hermosillo, Sonora",
     description: "The main cathedral of Hermosillo, known for its historic architecture and cultural significance.",

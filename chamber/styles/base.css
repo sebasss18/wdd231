@@ -19,6 +19,7 @@ header {
     grid-template-columns: 35px auto 60px;
     gap: 15px;
     font-weight: bold;
+    min-height: 90px;
 }
 
 header img {
@@ -64,7 +65,7 @@ nav a {
     text-align: center;
     padding: 1rem;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover {
@@ -105,6 +106,7 @@ footer {
     background-color: #eee;
     padding: 1rem 10px;
     text-align: center;
+    min-height: 160px;
 }
 
 .social {
@@ -120,7 +122,7 @@ footer {
     width: 44px;
     height: 44px;
     border-radius: 32px;
-    transition: all 0.3s ease-out;
+    transition: background-color 0.3s ease-out, transform 0.3s ease-out;
 }
 
 .social img {
@@ -147,7 +149,7 @@ footer {
     font-weight: bold;
     border: none;
     margin: 10px;
-    transition: all 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .menu button:hover {
@@ -303,7 +305,8 @@ article.cards.list section a {
 
 .hero img {
     width: 100%;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
     display: block;
     border-radius: 0;
 
@@ -490,7 +493,7 @@ form input[type=submit] {
     padding: .6rem 1.4rem;
     font-size: 1.5rem;
     appearance: none;
-    transition: all 0.3s;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
     cursor: pointer;
 }
 
@@ -531,7 +534,7 @@ form input[type=submit]:active {
     cursor: pointer;
     border: none;
     margin: 5px;
-    transition: all 0.3s;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
 .membership-cards article button:hover {
@@ -563,7 +566,7 @@ form input[type=submit]:active {
 }
 
 #membershipModal button {
-    transition: all 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 #membershipModal button:hover {
@@ -638,14 +641,20 @@ form input[type=submit]:active {
     border-radius: 32px;
     padding: 15px;
     width: 100%;
-    transition: all 0.5s;
+    transition: transform 0.5s;
     box-shadow: 0 0 10px rgba(56, 56, 56, 0.5);
     cursor: default;
 }
 
+.place-card figure {
+    margin: 0;
+    height: 229px;
+    overflow: hidden;
+}
+
 .place-card img {
     width: 100%;
-    height: 200px;      
+    height: 229px;      
     object-fit: cover;  
     display: block;     
     border-radius: 12px;
@@ -668,7 +677,7 @@ form input[type=submit]:active {
     border-radius: 22px;
     padding: 0.5rem 1rem;
     margin: 10px;
-    transition: all 0.3s;
+    transition: transform 0.5s, box-shadow 0.5s;
     cursor: pointer;
 }
 
@@ -688,4 +697,5 @@ form input[type=submit]:active {
     text-align: center;
     color: var(--color-text);
     margin-bottom: 20px;
+    min-height: 2rem    ;
 }
