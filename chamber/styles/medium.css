@@ -1,0 +1,14 @@
+@media (min-width: 28rem) {
+    .place-cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "c1 c2"
+            "c3 c4"
+            "c5 c6"
+            "c7 c8";
+    }
+
+    .place-card:hover {
+        transform: translateY(-5px);
+    }
+}

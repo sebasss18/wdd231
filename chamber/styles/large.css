@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 64rem) {
 
     header,
     main,
@@ -156,6 +156,13 @@
     }
 
     #membershipModal {
-    max-width: 450px;
-}
+        max-width: 450px;
+    }
+
+    .place-cards {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "c1 c2 c3 c4"
+            "c5 c6 c7 c8";
+    }
 }

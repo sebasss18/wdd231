@@ -602,3 +602,83 @@ form input[type=submit]:active {
 .thankyou-page h2{
     text-align: center;
 }
+
+/* DISCOVER PAGE */
+
+.place-cards {
+    display: grid;
+    gap: 1rem;
+    margin: 10px;
+    border-radius: 43px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "c1"
+        "c2"
+        "c3"
+        "c4"
+        "c5"
+        "c6"
+        "c7"
+        "c8";
+}
+
+.place-card:nth-child(1) { grid-area: c1; }
+.place-card:nth-child(2) { grid-area: c2; }
+.place-card:nth-child(3) { grid-area: c3; }
+.place-card:nth-child(4) { grid-area: c4; }
+.place-card:nth-child(5) { grid-area: c5; }
+.place-card:nth-child(6) { grid-area: c6; }
+.place-card:nth-child(7) { grid-area: c7; }
+.place-card:nth-child(8) { grid-area: c8; }
+
+.place-card {
+    align-items: center;
+    background-color: var(--color-primary);
+    border: 3px solid var(--color-contrast);
+    border-radius: 32px;
+    padding: 15px;
+    width: 100%;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px rgba(56, 56, 56, 0.5);
+    cursor: default;
+}
+
+.place-card img {
+    width: 100%;
+    height: 200px;      
+    object-fit: cover;  
+    display: block;     
+    border-radius: 12px;
+}
+
+.place-card h2 {
+    text-align: center;
+}
+
+.place-card address {
+    text-decoration: underline;
+    text-decoration-color: var(--color-secondary);
+    text-decoration-style: wavy;
+}
+
+.place-card button {
+    border: none;
+    background-color: var(--color-contrast);
+    color: #ffffff;
+    border-radius: 22px;
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.place-card button:hover {
+    transform: scale(1.08);
+}
+
+.place-card button:active {
+    background-color: #ffffff;
+    color: var(--color-text);
+    transition: none;
+    transform: scale(1);
+}
