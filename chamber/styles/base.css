@@ -682,3 +682,10 @@ form input[type=submit]:active {
     transition: none;
     transform: scale(1);
 }
+
+#lastVisitMessage {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color-text);
+    margin-bottom: 20px;
+}

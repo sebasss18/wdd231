@@ -12,7 +12,7 @@ function displayPlaces() {
             <figure><img src="images/${place.image}" alt="${place.name}"></figure>
             <p>${place.description}</p>
             <address>Address: ${place.address}</address>
-            <button>Learn more</button>
+            <button onclick="window.open('${place.url}', '_blank')">Learn more</button>
         </div>
         `;
     
