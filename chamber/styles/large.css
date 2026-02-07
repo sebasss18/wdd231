@@ -64,7 +64,7 @@
         transition: transform 0.5s, border-radius 0.5s;
     }
 
-    section img:hover {
+    .social section img:hover {
         transform: scale(1.04);
         border-radius: 10px;
     }
@@ -145,8 +145,8 @@
     }
 
     form input[type=submit]:hover {
-    transform: scale(1.05);
-    background-color: var(--color-secondary);
+        transform: scale(1.05);
+        background-color: var(--color-secondary);
     }
 
     form input[type=submit]:active {
@@ -160,9 +160,13 @@
     }
 
     .place-cards {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-areas:
-            "c1 c2 c3 c4"
-            "c5 c6 c7 c8";
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .place-cards figure img:hover {
+        transform: scale(1.02);
+        border-radius: 33px;
+        box-shadow: 0 0 10px rgba(56, 56, 56, 0.5);
     }
 }

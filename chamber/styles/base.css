@@ -173,7 +173,7 @@ footer {
     border-radius: 15px;
 }
 
-section img {
+#directory section img {
     max-width: 100%;
     border-radius: 15px;
 }
@@ -609,30 +609,12 @@ form input[type=submit]:active {
 /* DISCOVER PAGE */
 
 .place-cards {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     margin: 10px;
     border-radius: 43px;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-        "c1"
-        "c2"
-        "c3"
-        "c4"
-        "c5"
-        "c6"
-        "c7"
-        "c8";
 }
-
-.place-card:nth-child(1) { grid-area: c1; }
-.place-card:nth-child(2) { grid-area: c2; }
-.place-card:nth-child(3) { grid-area: c3; }
-.place-card:nth-child(4) { grid-area: c4; }
-.place-card:nth-child(5) { grid-area: c5; }
-.place-card:nth-child(6) { grid-area: c6; }
-.place-card:nth-child(7) { grid-area: c7; }
-.place-card:nth-child(8) { grid-area: c8; }
 
 .place-card {
     align-items: center;
@@ -644,12 +626,25 @@ form input[type=submit]:active {
     transition: transform 0.5s;
     box-shadow: 0 0 10px rgba(56, 56, 56, 0.5);
     cursor: default;
+
+    display: grid;
+    grid-template-areas: 
+        "name"
+        "image"
+        "description"
+        "location"
+        "button";
 }
+
+.place-card h2 { grid-area: name; }
+.place-card figure { grid-area: image; }
+.place-card p { grid-area: description; }
+.place-card address { grid-area: location; }
+.place-card button { grid-area: button; }
 
 .place-card figure {
     margin: 0;
     height: 229px;
-    overflow: hidden;
 }
 
 .place-card img {
@@ -658,6 +653,7 @@ form input[type=submit]:active {
     object-fit: cover;  
     display: block;     
     border-radius: 12px;
+    transition: all 0.5s;
 }
 
 .place-card h2 {
@@ -671,18 +667,19 @@ form input[type=submit]:active {
 }
 
 .place-card button {
+    justify-self: center;
     border: none;
     background-color: var(--color-contrast);
     color: #ffffff;
     border-radius: 22px;
     padding: 0.5rem 1rem;
-    margin: 10px;
+    margin: 15px;
     transition: transform 0.5s, box-shadow 0.5s;
     cursor: pointer;
 }
 
 .place-card button:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
 
 .place-card button:active {
@@ -698,4 +695,28 @@ form input[type=submit]:active {
     color: var(--color-text);
     margin-bottom: 20px;
     min-height: 2rem    ;
+}
+
+#discover-page h1 {
+    background-color: var(--color-primary);
+    padding: .5rem 1rem;
+    border-radius: 32px;
+    justify-self: center;
+    box-shadow: 0 0 5px rgba(56, 56, 56, 0.5);
+}
+
+#join-page h1 {
+    background-color: var(--color-primary);
+    padding: .5rem 1rem;
+    border-radius: 32px;
+    justify-self: center;
+    box-shadow: 0 0 5px rgba(56, 56, 56, 0.5);
+}
+
+#directory h1 {
+    background-color: var(--color-primary);
+    padding: .5rem 1rem;
+    border-radius: 32px;
+    justify-self: center;
+    box-shadow: 0 0 5px rgba(56, 56, 56, 0.5);
 }

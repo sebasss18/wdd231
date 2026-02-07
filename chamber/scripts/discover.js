@@ -14,7 +14,7 @@ function displayPlaces() {
             </figure>
             <p>${place.description}</p>
             <address>Address: ${place.address}</address>
-                        <button class="btn" onclick="window.open('${place.url}', '_blank')">Learn more</button>
+            <button class="btn" onclick="window.open('${place.url}', '_blank')">Learn more</button>
         `;
 
         fragment.appendChild(section);
