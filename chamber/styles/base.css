@@ -636,17 +636,6 @@ form input[type=submit]:active {
         "button";
 }
 
-.place-card h2 { grid-area: name; }
-.place-card figure { grid-area: image; }
-.place-card p { grid-area: description; }
-.place-card address { grid-area: location; }
-.place-card button { grid-area: button; }
-
-.place-card figure {
-    margin: 0;
-    height: 229px;
-}
-
 .place-card img {
     width: 100%;
     height: 229px;      
@@ -657,16 +646,25 @@ form input[type=submit]:active {
 }
 
 .place-card h2 {
+    grid-area: name;
     text-align: center;
 }
 
+.place-card figure {
+    grid-area: image;
+    margin: 0;
+    height: 229px;
+}
+
 .place-card address {
+    grid-area: location;
     text-decoration: underline;
     text-decoration-color: var(--color-secondary);
     text-decoration-style: wavy;
 }
 
 .place-card button {
+    grid-area: button;
     justify-self: center;
     border: none;
     background-color: var(--color-contrast);
