@@ -1,0 +1,61 @@
+@media only screen and (min-width: 38rem) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    header {
+        border-radius: 15px;
+        margin: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 25px auto;
+        gap: 55px;
+        font-weight: bold;
+    }
+
+    header img {
+        width: 70px;
+        height: auto;
+    }
+
+    header span {
+        font-size: 2rem;
+    }
+
+    .navigation {
+        display: block;
+        max-height: none;
+        overflow: visible;
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    nav a:hover {
+        color: #ffffff;
+        background-color: var(--color-secondary);
+        transform: translateY(-5px);
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,124 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Mole",
+      "description": "A rich and complex Mexican sauce made with chili peppers, spices, chocolate, and nuts.",
+      "image": "images/mole-image.webp"
+    },
+    {
+      "id": 2,
+      "name": "Tacos al Pastor",
+      "description": "Marinated pork cooked on a vertical spit and served in corn tortillas with pineapple.",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Chiles Rellenos",
+      "description": "Poblano peppers stuffed with cheese or meat, battered and fried.",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Pozole",
+      "description": "A traditional hominy soup made with pork or chicken and red chili broth.",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "name": "Tamales",
+      "description": "Corn dough filled with meats, cheese, or chilies, wrapped in corn husks and steamed.",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "name": "Enchiladas",
+      "description": "Corn tortillas rolled around a filling and covered with chili sauce.",
+      "image": ""
+    },
+    {
+      "id": 7,
+      "name": "Guacamole",
+      "description": "A fresh avocado dip mixed with lime juice, onion, tomato, and cilantro.",
+      "image": ""
+    },
+    {
+      "id": 8,
+      "name": "Quesadillas",
+      "description": "Tortillas filled with melted cheese and sometimes meat or vegetables.",
+      "image": ""
+    },
+    {
+      "id": 9,
+      "name": "Sopes",
+      "description": "Thick corn tortillas topped with beans, meat, lettuce, cheese, and salsa.",
+      "image": ""
+    },
+    {
+      "id": 10,
+      "name": "Tostadas",
+      "description": "Crispy fried tortillas topped with beans, meat, lettuce, and crema.",
+      "image": ""
+    },
+    {
+      "id": 11,
+      "name": "Chilaquiles",
+      "description": "Fried tortilla chips simmered in red or green salsa, topped with cheese and cream.",
+      "image": ""
+    },
+    {
+      "id": 12,
+      "name": "Elote",
+      "description": "Grilled corn on the cob covered with mayonnaise, cheese, chili powder, and lime.",
+      "image": ""
+    },
+    {
+      "id": 13,
+      "name": "Carnitas",
+      "description": "Slow-cooked pork that is tender on the inside and crispy on the outside.",
+      "image": ""
+    },
+    {
+      "id": 14,
+      "name": "Barbacoa",
+      "description": "Slow-cooked meat traditionally prepared in an underground pit.",
+      "image": ""
+    },
+    {
+      "id": 15,
+      "name": "Birria",
+      "description": "A spicy stew made with goat or beef, often served with tortillas.",
+      "image": ""
+    },
+    {
+      "id": 16,
+      "name": "Cochinita Pibil",
+      "description": "Slow-roasted pork marinated in achiote and citrus juices.",
+      "image": ""
+    },
+    {
+      "id": 17,
+      "name": "Pambazos",
+      "description": "Bread dipped in chili sauce and filled with potatoes, chorizo, and cheese.",
+      "image": ""
+    },
+    {
+      "id": 18,
+      "name": "Flautas",
+      "description": "Rolled tortillas filled with meat and deep-fried until crispy.",
+      "image": ""
+    },
+    {
+      "id": 19,
+      "name": "Menudo",
+      "description": "A traditional soup made with beef tripe in a red chili broth.",
+      "image": ""
+    },
+    {
+      "id": 20,
+      "name": "Arroz con Leche",
+      "description": "A sweet rice pudding made with milk, cinnamon, and sugar.",
+      "image": ""
+    }
+  ]
+}

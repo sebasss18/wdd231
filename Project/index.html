@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taste of Mexico is a traditional Mexican food recipe website featuring authentic dishes, classic ingredients, and the true flavors of Mexico.">
+    <meta name="author" content="Saul Sebastian Bernal Sotelo">
+    <!-- FONT TEXT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- FONT HEADINGS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- TITLE -->
+    <title>Taste of Mexico on your table</title>
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <!-- JAVA SCRIPT FILES -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/featured-recipe.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/site-logo.svg" alt="site logo" width="50" height="50">
+        <span>Taste of Mexico</span>
+        <button id="ham-button" class="hamburger" aria-label="Open main menu"></button>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <main class="home-page">
+        <h1>Home Page</h1>
+        <section class="featured-card">
+            <h2>Featured Recipe</h2>
+            <div class="featured-recipe"></div>
+        </section>
+    </main>
+</body>
+</html>
