@@ -16,15 +16,20 @@ async function displayRecipes() {
 
     const recipe = recipes[index];
     const section = document.createElement('section');
-    section.classList.add('recipe-card');
+    section.classList.add('card');
 
     section.innerHTML = `
     <img src="${recipe.image || 'placeholder.jpg'}" alt="${recipe.name}">
         <div class="featured">
             <h3>${recipe.name}</h3>
             <p>${recipe.description}</p>
+            <button data-id="${recipe.id}">View Recipe</button>
         </div>
     `;
+    const button = section.querySelector('button');
+    button.addEventListener('click', () => {
+    displayRecipeSteps(recipe.id);
+    });
 
     container.appendChild(section);
 

@@ -22,7 +22,9 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/featured-recipe.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/recipes-modal.js" defer></script>
     <script src="scripts/display-recipes.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
     <header>
@@ -39,15 +41,41 @@
     </nav>
     <main class="home-page">
         <h1>Home Page</h1>
+        <div class="main-section">
             <section class="featured-card">
                 <h2>Featured Recipe</h2>
                 <div class="featured-recipe"></div>
+                <p>A special recipe selected to inspire your next meal!</p>
             </section>
-            <section>
+            <section class="weather-cards">
+                <div class="actual-weather">
+                    <h3>Current Weather</h3>
+                    <span id="current-weather"></span>
+                    <figure>
+                        <figcaption id="description"></figcaption>
+                        <img id="weather-icon" src="images/weather-placeholder.svg" alt="weather-icon">
+                    </figure>
+                </div>
+                <div class="forecast">
+                    <h3>Weather Forecast</h3>
+                    <span id="weather-forecast"></span>
+                </div>
+            </section>
+            <section class="events">
+                <p><strong>Hermosillo Street Food Festival</strong><br>
+                This weekend at Plaza Hidalgo, Av. Obregón #123, enjoy tacos, tamales, and more from the best local vendors!</p>
+                <p><strong>Sonora Flavors Fair</strong><br>
+                Next Saturday at Centro de Convenciones de Hermosillo, Blvd. Eusebio Kino #456, a celebration of traditional dishes and live cooking demos.</p>
+                <p><strong>Hermosillo Gourmet Market</strong><br>
+                Every Sunday morning at Plaza Zaragoza, Calle Serdán #789, taste authentic Mexican cuisine from local chefs and artisans.</p>
+            </section>
+            <section class="general-recipes">
                 <h2>Recipes</h2>
                 <div class="cards"></div>
             </section>
+        </div>
     </main>
+    <dialog id="recipesModal"></dialog>
     <footer>
         <p>Phone Number | 6621415468</p>
         <div class="social">

@@ -64,7 +64,7 @@ h4,
 h5,
 h6 {
     font-family: 'Merriweather', serif;
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .navigation {
@@ -100,7 +100,7 @@ nav a {
     text-align: center;
     padding: 1rem;
     text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, border-radius 0.3s ease;
 }
 
 nav a:hover {
@@ -169,6 +169,7 @@ nav a:hover {
     margin: 0 15px;
     border-radius: 22px;
     box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);
+    max-height: fit-content;
 }
 
 .featured {
@@ -176,6 +177,7 @@ nav a:hover {
     padding: 2px 10px 10px 10px;
     color: #ffffff;
     border-radius: 0px 0px 22px 22px;
+    box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);
 }
 
 .featured-recipe img {
@@ -199,6 +201,161 @@ nav a:hover {
     border-radius: 22px;
     overflow: hidden;
     display: inline-block;
+}
+
+/*RECIPE CARD FEATURED*/
+.card {
+    text-align: left;
+}
+
+.card button {
+    text-align: left;
+    border: none;
+    border-radius: 22px;
+    background-color: var(--color-primary);
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    margin: 5px 0 10px 0;
+    font-size: 1rem;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.card button:hover {
+    transform: scale(1.06);
+    background-color: var(--color-secondary);
+    cursor: pointer;
+}
+
+/*RECIPE CARDS GENERAL*/
+.recipe-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    grid-template-areas:
+        "title"
+        "image"
+        "description"
+        "button";
+    gap: 10px 15px;
+    background-color: var(--color-background);
+    border: solid 2px var(--color-secondary);
+    padding: 10px;
+    max-width: 900px;
+    margin: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);
+}
+
+.recipe-cards img {
+    grid-area: image;
+    max-width: 350px;
+    border: solid 5px var(--color-contrast);
+    border-radius: 22px;
+}
+
+.recipe-cards h3 {
+    grid-area: title;
+    text-align: left;
+    margin: 0;
+    font-weight: bold;
+}
+
+.recipe-cards p {
+    grid-area: description;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+    color: var(--color-text);
+}
+
+.recipe-cards button {
+    grid-area: button;
+    justify-self: start;
+    border: none;
+    border-radius: 22px;
+    background-color: var(--color-primary);
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.recipe-cards button:hover {
+  transform: scale(1.06);
+  background-color: var(--color-secondary);
+}
+
+.general-recipes {
+    margin: 15px;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*WEATHER*/
+.weather-cards {
+    background-color: var(--color-background);
+    box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 22px;
+    gap: 50px;
+    max-height: 280px;
+    display: flex;
+}
+
+/*EVENTS*/
+.events {
+    background-color: var(--color-background);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 22px;
+    box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);
+}
+
+.events p {
+    background-color: var(--color-background);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 22px;
+    box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);
+}
+
+/*RECIPES MODAL*/
+#recipesModal {
+    background-color: var(--color-secondary);
+    border: solid 3px var(--color-background);
+    border-radius: 22px;
+    margin: 20px;
+    color: #ffffff;
+    box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);
+}
+
+#recipesModal::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(1px); 
+}
+
+#recipesModal button#closeModal {
+    transition: transform 0.3s ease;
+    background: transparent;
+    border: none;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#recipesModal button#closeModal:hover {
+    transform: scale(1.1);
 }
 
 /* FOOTER */
