@@ -333,9 +333,12 @@ nav a:hover {
     background-color: var(--color-secondary);
     border: solid 3px var(--color-background);
     border-radius: 22px;
-    margin: 20px;
     color: #ffffff;
     box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);
+}
+
+#recipesModal h3 {
+    text-align: center;
 }
 
 #recipesModal::backdrop {
