@@ -6,6 +6,10 @@
     --color-text: #414833;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--color-text);
@@ -446,7 +450,7 @@ form {
     border: 2px solid var(--color-secondary);
     box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);
     border-radius: 24px;
-    margin: 10px auto;
+    margin: 0 auto;
     max-height: 600px;
 }
 
