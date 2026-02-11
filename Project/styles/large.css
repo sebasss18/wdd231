@@ -95,6 +95,16 @@
         margin: 0 auto 20px;
     }
 
+    .full-recipe-card img {
+        transition: transform 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    }
+
+    .full-recipe-card img:hover {
+        transform: scale(1.05) rotate(-1.2deg);
+        border-radius: 10px;
+        box-shadow: 0 8px 24px rgba(127, 85, 57, 0.35);
+    }
+
     .full-recipe-card ul {
         box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);   
         padding: 25px;
