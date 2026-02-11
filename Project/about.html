@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taste of Mexico is a traditional Mexican food recipe website featuring authentic dishes, classic ingredients, and the true flavors of Mexico.">
+    <meta name="author" content="Saul Sebastian Bernal Sotelo">
+    <!-- FONT TEXT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- FONT HEADINGS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- TITLE -->
+    <title>Taste of Mexico on your table</title>
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <!-- JAVA SCRIPT FILE -->
+    <script type="module" src="scripts/about.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/site-logo.svg" alt="site logo" width="50" height="50">
+        <span>Taste of Mexico</span>
+        <button id="ham-button" class="hamburger" aria-label="Open main menu"></button>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li class="current"><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <main id="about-page">
+        <h1>About</h1>
+        <div class="about">
+            <section class="about-content">
+                <h2>Our Story</h2>
+                <img src="images/about-image-deco.webp" alt="Mexican Gastronomy">
+                <p>
+                    Taste of Mexico was created to celebrate the rich flavors, traditions,
+                    and cultural heritage of authentic Mexican cuisine. Mexican food is
+                    deeply rooted in history, blending indigenous ingredients with
+                    centuries of culinary influence to create dishes that are vibrant,
+                    meaningful, and full of character.
+                </p>
+
+                <p>
+                    From family recipes lovingly passed down through generations to
+                    the bold and colorful street food found in every corner of the country,
+                    our goal is to bring the true taste of Mexico to your table. We want
+                    every visitor to experience not only the delicious flavors, but also
+                    the stories, passion, and traditions behind each dish.
+                </p>
+
+                <p>
+                    Through carefully selected recipes and detailed instructions,
+                    Taste of Mexico invites you to explore, cook, and connect with
+                    the authentic essence of Mexican gastronomy.
+                </p>
+                
+                <h2>Our Mission</h2>
+                <img src="images/mission-image.webp" alt="People Cooking">
+                <p>
+                    We are committed to preserving traditional Mexican recipes and honoring the rich culinary heritage of our country. Mexican cuisine is more than just food — it is history, culture, family, and celebration. Through this website, we aim to share authentic flavors, cooking techniques, and ingredients that have been passed down through generations.
+                </p>
+
+                <p>
+                    Our goal is to inspire people around the world to explore the diversity of Mexican gastronomy, from comforting homemade dishes to vibrant street food favorites. By providing detailed recipes and cultural context, we hope to encourage everyone to cook with passion, appreciate tradition, and bring the true taste of Mexico into their own kitchens.
+                </p>
+            </section>
+            <form class="about-form" method="get" action="thankyou.html">
+                        <h2>Stay Connected</h2>
+                        <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+                        <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>                
+                        <label>Cell Phone <input type="tel" name="phone"  required autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" ></label>
+                        <label>Email <input type="email" name="email" required placeholder="name@example.com"  title="Your Email" autocomplete="email"></label>
+                        <label>Favorite Dish
+                
+                        <select name="dish" required>
+                            <option value="">Select your favorite Mexican dish</option>
+                            <option value="Mole">Mole</option>
+                            <option value="Tacos al Pastor">Tacos al Pastor</option>
+                            <option value="Chiles Rellenos">Chiles Rellenos</option>
+                            <option value="Pozole">Pozole</option>
+                            <option value="Tamales">Tamales</option>
+                            <option value="Enchiladas">Enchiladas</option>
+                            <option value="Guacamole">Guacamole</option>
+                            <option value="Quesadillas">Quesadillas</option>
+                            <option value="Sopes">Sopes</option>
+                            <option value="Tostadas">Tostadas</option>
+                            <option value="Tacos Dorados">Tacos Dorados</option>
+                            <option value="Carne Asada">Carne Asada</option>
+                            <option value="Birria">Birria</option>
+                            <option value="Barbacoa">Barbacoa</option>
+                            <option value="Flautas">Flautas</option>
+                        </select>
+                    </label>
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <input type="submit" value="Join our community">
+                </form>
+            </div>
+        </main>
+    <footer>
+        <p>Phone Number | 6621415468</p>
+        <div class="social">
+            <a href="https://www.facebook.com/share/17jt6BYXtF/" target="_blank"><img src="images/facebook-svgrepo-com.svg" alt="Facebook" width="25" height="25"></a>
+            <a href="https://www.instagram.com/seb_sso?utm_source=qr&igsh=MWpoc2NlbDN0ejM3bA==" target="_blank"><img src="images/instagram-svgrepo-com.svg" alt="Instagram" width="25" height="25"></a>
+            <a href="#" target="_blank"><img src="images/youtube-168-svgrepo-com.svg" alt="Youtube" width="25" height="25"></a>
+        </div>
+        <p>Copyright &copy; | <span id="currentYear"></span> | Sebastian Bernal | Mexico Sonora | <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

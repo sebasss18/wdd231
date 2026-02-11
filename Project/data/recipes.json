@@ -235,6 +235,129 @@
         "Top with lettuce, crema, and cheese.",
         "Serve immediately."
       ]
+    },
+    {
+      "id": 11,
+      "name": "Tacos Dorados",
+      "description": "Crispy rolled tacos filled with chicken or potatoes, fried until golden and topped with lettuce, crema, and cheese.",
+      "image": "images/tacos-dorados-image.webp",
+      "ingredients": [
+        "Corn tortillas",
+        "Shredded chicken or mashed potatoes",
+        "Vegetable oil",
+        "Lettuce",
+        "Crema",
+        "Cheese",
+        "Salsa"
+      ],
+      "steps": [
+        "Fill tortillas with chicken or potatoes.",
+        "Roll tightly and secure if needed.",
+        "Fry in hot oil until golden and crispy.",
+        "Drain excess oil.",
+        "Top with lettuce, crema, cheese, and salsa.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Carne Asada",
+      "description": "Grilled marinated beef served with tortillas, guacamole, and grilled onions.",
+      "image": "images/carne-asada-image.webp",
+      "ingredients": [
+        "1 kg flank or skirt steak",
+        "2 cloves garlic",
+        "1/4 cup lime juice",
+        "1/4 cup orange juice",
+        "Salt",
+        "Pepper",
+        "Corn tortillas",
+        "Guacamole",
+        "Grilled onions"
+      ],
+      "steps": [
+        "Marinate steak with garlic, citrus juices, salt, and pepper.",
+        "Let rest for at least 2 hours.",
+        "Grill over high heat to desired doneness.",
+        "Rest meat before slicing.",
+        "Slice thinly against the grain.",
+        "Serve with tortillas, guacamole, and onions."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Birria",
+      "description": "Slow-cooked spicy stew traditionally made with beef or goat, served with tortillas and consommé.",
+      "image": "images/birria-image.webp",
+      "ingredients": [
+        "1 kg beef or goat meat",
+        "Guajillo chiles",
+        "Ancho chiles",
+        "Garlic",
+        "Onion",
+        "Vinegar",
+        "Oregano",
+        "Cumin",
+        "Bay leaves",
+        "Salt"
+      ],
+      "steps": [
+        "Toast and soak dried chiles.",
+        "Blend chiles with garlic, onion, vinegar, and spices.",
+        "Marinate meat overnight.",
+        "Cook slowly until tender.",
+        "Shred meat.",
+        "Serve with broth and tortillas."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Barbacoa",
+      "description": "Slow-cooked tender beef traditionally seasoned with chilies and spices, served with tortillas and salsa.",
+      "image": "images/barbacoa-image.webp",
+      "ingredients": [
+        "1 kg beef (chuck or brisket)",
+        "Guajillo chiles",
+        "Garlic",
+        "Onion",
+        "Cloves",
+        "Bay leaves",
+        "Salt",
+        "Pepper",
+        "Corn tortillas",
+        "Salsa"
+      ],
+      "steps": [
+        "Toast and soak guajillo chiles.",
+        "Blend chiles with garlic, onion, and spices.",
+        "Marinate beef with the sauce.",
+        "Wrap and cook slowly until very tender.",
+        "Shred the meat.",
+        "Serve with tortillas and salsa."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Flautas",
+      "description": "Rolled and fried tortillas filled with shredded meat, served crispy with fresh toppings.",
+      "image": "images/flautas-image.webp",
+      "ingredients": [
+        "Corn tortillas",
+        "Shredded chicken or beef",
+        "Vegetable oil",
+        "Lettuce",
+        "Crema",
+        "Cheese",
+        "Salsa"
+      ],
+      "steps": [
+        "Fill tortillas with shredded meat.",
+        "Roll tightly.",
+        "Fry until crispy and golden.",
+        "Drain excess oil.",
+        "Top with lettuce, crema, cheese, and salsa.",
+        "Serve hot."
+      ]
     }
   ]
 }

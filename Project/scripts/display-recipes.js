@@ -1,5 +1,7 @@
 const cardsContainer = document.querySelector('.cards');
 
+import { displayRecipeSteps } from './recipes-modal.js';
+
 async function displayRecipes() {
   const response = await fetch('data/recipes.json');
   const data = await response.json();

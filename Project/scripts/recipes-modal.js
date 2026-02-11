@@ -215,10 +215,123 @@ const recipes = {
       "Top with lettuce, crema, and cheese.",
       "Serve immediately."
     ]
+  },
+
+  11: {
+    name: "Tacos Dorados",
+    ingredients: [
+      "Corn tortillas",
+      "Shredded chicken or mashed potatoes",
+      "Vegetable oil",
+      "Lettuce",
+      "Crema",
+      "Cheese",
+      "Salsa"
+    ],
+    steps: [
+      "Fill tortillas with chicken or potatoes.",
+      "Roll tightly.",
+      "Fry until golden and crispy.",
+      "Drain excess oil.",
+      "Top with lettuce, crema, cheese, and salsa.",
+      "Serve immediately."
+    ]
+  },
+
+  12: {
+    name: "Carne Asada",
+    ingredients: [
+      "1 kg flank or skirt steak",
+      "2 cloves garlic",
+      "1/4 cup lime juice",
+      "1/4 cup orange juice",
+      "Salt",
+      "Pepper",
+      "Corn tortillas",
+      "Guacamole",
+      "Grilled onions"
+    ],
+    steps: [
+      "Marinate steak with garlic and citrus juices.",
+      "Rest for at least 2 hours.",
+      "Grill over high heat.",
+      "Rest before slicing.",
+      "Slice thinly against the grain.",
+      "Serve with tortillas and guacamole."
+    ]
+  },
+
+  13: {
+    name: "Birria",
+    ingredients: [
+      "1 kg beef or goat meat",
+      "Guajillo chiles",
+      "Ancho chiles",
+      "Garlic",
+      "Onion",
+      "Vinegar",
+      "Oregano",
+      "Cumin",
+      "Bay leaves",
+      "Salt"
+    ],
+    steps: [
+      "Toast and soak dried chiles.",
+      "Blend with garlic, onion, vinegar, and spices.",
+      "Marinate meat overnight.",
+      "Cook slowly until tender.",
+      "Shred meat.",
+      "Serve with broth and tortillas."
+    ]
+  },
+
+  14: {
+    name: "Barbacoa",
+    ingredients: [
+      "1 kg beef (chuck or brisket)",
+      "Guajillo chiles",
+      "Garlic",
+      "Onion",
+      "Cloves",
+      "Bay leaves",
+      "Salt",
+      "Pepper",
+      "Corn tortillas",
+      "Salsa"
+    ],
+    steps: [
+      "Toast and soak chiles.",
+      "Blend with garlic and spices.",
+      "Marinate beef.",
+      "Cook slowly until very tender.",
+      "Shred the meat.",
+      "Serve with tortillas and salsa."
+    ]
+  },
+
+  15: {
+    name: "Flautas",
+    ingredients: [
+      "Corn tortillas",
+      "Shredded chicken or beef",
+      "Vegetable oil",
+      "Lettuce",
+      "Crema",
+      "Cheese",
+      "Salsa"
+    ],
+    steps: [
+      "Fill tortillas with shredded meat.",
+      "Roll tightly.",
+      "Fry until crispy and golden.",
+      "Drain excess oil.",
+      "Top with lettuce, crema, cheese, and salsa.",
+      "Serve hot."
+    ]
   }
 };
 
-function displayRecipeSteps(id) {
+export function displayRecipeSteps(id) {
     const modal = membershipModal;
     const recipe = recipes[id];
     modal.innerHTML = `

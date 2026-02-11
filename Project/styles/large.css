@@ -115,4 +115,19 @@
         width: 50%;
         max-height: 400px;
     }
+
+    form input[type=submit] {
+        transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    form input[type=submit]:hover {
+        transform: scale(1.03);
+        box-shadow: 0 6px 18px rgba(127, 85, 57, 0.2);   
+    }
+
+    .about {
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
