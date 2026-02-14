@@ -124,9 +124,6 @@ nav a:hover {
     justify-self: center;
     padding-bottom: 0;
     margin-bottom: 0;
-}
-
-.hamburger {
     width: 41px;
     height: 45px;
     border-radius: 50%;
@@ -190,7 +187,6 @@ nav a:hover {
     display: block;
     border-radius: 22px 22px 0 0;
     object-fit: cover;
-    height: 210px;
 }
 
 .featured-recipe h3 {
