@@ -1,3 +1,5 @@
+import { displayRecipeSteps } from './recipes-modal.js';
+
 const container = document.querySelector('.featured-recipe');
 
 async function displayRecipes() {
@@ -28,7 +30,7 @@ async function displayRecipes() {
     `;
     const button = section.querySelector('button');
     button.addEventListener('click', () => {
-    displayRecipeSteps(recipe.id);
+        displayRecipeSteps(Number(recipe.id));
     });
 
     container.appendChild(section);
