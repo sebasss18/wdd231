@@ -128,8 +128,6 @@ nav a:hover {
     height: 45px;
     border-radius: 50%;
     position: relative;
-    border: none;
-    cursor: pointer;
 }
 
 .hamburger::before,
@@ -585,4 +583,18 @@ footer {
 
 .social a:hover {
     transform: scale(1.1);
+}
+
+.video-demonstration a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: var(--color-primary);
+    padding: 3px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.video-demonstration a:hover {
+    background-color: var(--color-secondary);
 }
